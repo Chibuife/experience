@@ -16,6 +16,7 @@ const Card=({filterItem})=>{
                  </div>
                 )
             })}
+            <div className="moreInfo">More Info</div>
         </div>
     )
 }

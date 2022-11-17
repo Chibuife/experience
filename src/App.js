@@ -9,7 +9,6 @@ function App() {
   const myObject = Object
   const [active, setActive] = useState("TOMMY")
    const filterItem = myObject.filter((item)=> item.category === active);
-  console.log(filterItem)
   return (
     <div>
       <Header/>
