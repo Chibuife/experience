@@ -1,13 +1,13 @@
 const Card=({filterItem})=>{
     return(
-        <div>
+        <div className="description">
             {filterItem.map((item)=>{
                 return(
                  <div key={item.id}>
-                    <h2>{item.h2}</h2>
-                    <h3>{item.category}</h3>
-                    <div>{item.date}</div>
-                    <ul>
+                    <div className="title">{item.h2}</div>
+                    <h4>{item.category}</h4>
+                    <div className="date">{item.date}</div>
+                    <ul className="details">
                         <li>{item.details.p1}</li>
                         <li>{item.details.p2}</li>
                         <li>{item.details.p3}</li>

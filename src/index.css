@@ -7,15 +7,91 @@
 body{
   position: relative;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f8;
 }
 
 h1{
   text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  color: #102a42;
+}
+.underline{
+  width: 80px;
+  height: 4px;
+  margin-top: 2px;
+  background-color: #2caeba;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main{
   display: flex;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
+
+.menu{
+  list-style: none;
+  margin-right: 50px;
+}
+.menu li{
+  margin-top: 10px;
+  padding-left: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s all;
+}
+
+.menu li:hover{
+  box-shadow: -2px 0px #2caeba;
+  color: #2caeba;
+}
+
+.active{
+  box-shadow: -2px 0px #2caeba;
+  color: #2caeba;
+}
+
+.title{
+  font-size: 30px;
+}
+
+h4{
+  background-color: #dae2ec;
+  color: #617d98;
+  width: fit-content;
+  padding: 1px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.date{
+  color: #617d98;
+}
+
+.details{
+  margin-top: 20px;
+}
+
+.details{
+  list-style-image: url("listImage.svg");
+  color: #324d67;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.details li{
+  padding-top: 20px;
+}
+
+.description{
+  margin-left: 100px;
+}
+
